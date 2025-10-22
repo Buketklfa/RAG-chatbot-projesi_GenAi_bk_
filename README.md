@@ -17,7 +17,7 @@ Bu proje, **Retrieval Augmented Generation (RAG)** mimarisini kullanarak, Huggin
 | **Data Chunks (Veri Parçacıkları)** | `RecursiveCharacterTextSplitter` (chunk\_size=1000, overlap=200) | Uzun belgeleri LLM'in bağlam penceresine sığacak mantıksal parçalara böler. |
 | **Embedding Model (Gömme Modeli)** | `sentence-transformers/distiluse-base-multilingual-cased-v2` | Metin ve sorguları, çok dilli yetenekli sayısal vektörlere dönüştürür. |
 | **Vector DB (Vektör Veritabanı)** | `Chroma` | Vektörleri depolar ve sorgu vektörüne en yakın, en alakalı parçaları (k=3) çeker. |
-| **LLM (Büyük Dil Modeli)** | Google Gemini 2.5 Flash | Çekilen bağlamı okuyarak ve **Prompt Template**'teki kurallara uyarak son cevabı üretir. |
+| **LLM (Büyük Dil Modeli)** | Google Gemini 2.0 | Çekilen bağlamı okuyarak ve **Prompt Template**'teki kurallara uyarak son cevabı üretir. |
 
 ## ⚙️ Çalıştırma Kılavuzu (GitHub/Colab)
 
